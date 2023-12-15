@@ -12,7 +12,7 @@ const AppRouter = () => {
         <div className="main-content">
           <Routes>
             <Route component={BooksList} path="/" exact={true} />
-            <Route component={AddBook} path="/add" />
+            <Route component={AddBook} path="/AddBook" />
           </Routes>
         </div>
       </div>
