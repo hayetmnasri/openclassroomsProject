@@ -10,7 +10,7 @@ const Header = () => {
         <NavLink to="/" className="link" activeClassName="active" exact>
           Books List
         </NavLink>
-        <NavLink to="/addBook" className="link" activeClassName="active">
+        <NavLink to="/add" className="link" activeClassName="active">
           Add Book
         </NavLink>
       </div>
