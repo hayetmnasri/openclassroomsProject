@@ -1,21 +1,20 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
+import React from "react"
+import { NavLink } from "react-bootstrap"
 
 const Header = () => {
   return (
-    <header>
-      <h1>Book Management App</h1>
-      <hr />
-      <div className="links">
-        <NavLink to="/" className="link" activeClassName="active" exact>
-          Books List
+  <header>
+    <h1>Book Management App</h1>
+    <hr/>
+    <div className="Links">
+      <NavLink to="/" className="link" activeClassName="active" exact>
+        Books List
         </NavLink>
-        <NavLink to="/add" className="link" activeClassName="active">
-          Add Book
+        <NavLink to="AddBook" className="link" activeClassName="active">
+         Add book
         </NavLink>
-      </div>
-    </header>
+    </div>
+  </header>
   );
 };
-
 export default Header;

@@ -1,10 +1,9 @@
 import React from 'react';
 import BookForm from './BookForm';
 
-const AddBook = ({ history, books, setBooks }) => {
+const AddBook = () => {
   const handleOnSubmit = (book) => {
-    setBooks([book, ...books]);
-    history.push('/');
+    console.log(book);
   };
 
   return (
